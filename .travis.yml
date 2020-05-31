@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 12
+
+before_script:
+  - npm run setup
+
+script:
+  - npm run test
+
+after_success:
+  - npm run docs
+  - npm pack
+  - npm run build
