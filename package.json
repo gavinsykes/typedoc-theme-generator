@@ -28,6 +28,7 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
+    "setup": "npm install"
     "test": "mocha -r ts-node/register dev/**/*.spec.ts"
   },
   "version": "0.0.1"
