@@ -1,0 +1,19 @@
+{
+  "name": "typedoc-theme-generator",
+  "version": "0.0.1",
+  "description": "An easy way to generate a theme for the Typedoc documentation generator tool",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinsykes/typedoc-theme-generator.git"
+  },
+  "author": "Gavin Sykes <gavin@gavinsykes.uk> (https://gavinsykes.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinsykes/typedoc-theme-generator/issues"
+  },
+  "homepage": "https://github.com/gavinsykes/typedoc-theme-generator#readme"
+}
