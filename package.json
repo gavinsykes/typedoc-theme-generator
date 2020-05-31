@@ -1,21 +1,9 @@
 {
-  "name": "typedoc-theme-generator",
-  "version": "0.0.1",
-  "description": "An easy way to generate a theme for the Typedoc documentation generator tool",
-  "main": "./dist/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gavinsykes/typedoc-theme-generator.git"
-  },
   "author": "Gavin Sykes <gavin@gavinsykes.uk> (https://gavinsykes.uk/)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gavinsykes/typedoc-theme-generator/issues"
   },
-  "homepage": "https://github.com/gavinsykes/typedoc-theme-generator#readme",
+  "description": "An easy way to generate a theme for the Typedoc documentation generator tool",
   "devDependencies": {
     "@types/node": "^14.0.6",
     "@types/webpack": "^4.41.16",
@@ -25,5 +13,18 @@
     "typescript": "^3.9.3",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "homepage": "https://github.com/gavinsykes/typedoc-theme-generator#readme",
+  "license": "MIT",
+  "main": "./dist/main.js",
+  "name": "typedoc-theme-generator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinsykes/typedoc-theme-generator.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
 }
